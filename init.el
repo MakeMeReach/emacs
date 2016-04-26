@@ -7,6 +7,8 @@
   (package-initialize))
 
 (add-to-list 'auto-mode-alist '("cron\\(tab\\)?\\."    . crontab-mode))
+(add-to-list 'auto-mode-alist '("/nginx/sites-\\(?:available\\|enabled\\)/" . nginx-mode))
+(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
 
 ;; Remove startup message
 (setq inhibit-startup-echo-area-message t)
