@@ -14,6 +14,7 @@
 ;; Remove startup message
 (setq inhibit-startup-echo-area-message t)
 (setq inhibit-startup-message t)
+(menu-bar-mode -1)
 
 ;; Display column number
 (column-number-mode t)
@@ -29,7 +30,7 @@
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 
-(load-theme 'manoj-dark t)
+(load-theme 'badger t)
 
 (global-set-key [(control b)] 'undo)
 ;;(global-set-key [(control b)] 'comment-or-uncomment-region)
@@ -88,3 +89,5 @@
 
 ;; pending delete
 (pending-delete-mode t)
+
+
