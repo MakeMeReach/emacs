@@ -32,7 +32,6 @@
 
 (load-theme 'badger t)
 
-(global-set-key [(control b)] 'undo)
 ;;(global-set-key [(control b)] 'comment-or-uncomment-region)
 
 ;; Do not search files in other directories
