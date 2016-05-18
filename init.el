@@ -8,7 +8,7 @@
 
 (add-to-list 'auto-mode-alist '("cron\\(tab\\)?\\."    . crontab-mode))
 (add-to-list 'auto-mode-alist '("/nginx/sites-\\(?:available\\|enabled\\)/" . nginx-mode))
-(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
+(add-to-list 'auto-mode-alist '("\\(?:\\.php\\|\\.dist\\)$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
 
 ;; Remove startup message
