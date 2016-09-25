@@ -28,6 +28,8 @@
 
 (load-theme 'manoj-dark t)
 
+(setq default-tab-width 4)
+
 (global-set-key [(control b)] 'undo)
 ;;(global-set-key [(control b)] 'comment-or-uncomment-region)
 
