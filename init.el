@@ -31,10 +31,8 @@
 (setq ido-everywhere t)
 
 (load-theme 'badger t)
-
 (setq default-tab-width 4)
 
-(global-set-key [(control b)] 'undo)
 ;;(global-set-key [(control b)] 'comment-or-uncomment-region)
 
 ;; Do not search files in other directories
