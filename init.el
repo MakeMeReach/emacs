@@ -7,10 +7,14 @@
   (package-initialize))
 
 (add-to-list 'auto-mode-alist '("cron\\(tab\\)?\\."    . crontab-mode))
+(add-to-list 'auto-mode-alist '("/nginx/sites-\\(?:available\\|enabled\\)/" . nginx-mode))
+(add-to-list 'auto-mode-alist '("\\(?:\\.php\\|\\.dist\\)$" . php-mode))
+(add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
 
 ;; Remove startup message
 (setq inhibit-startup-echo-area-message t)
 (setq inhibit-startup-message t)
+(menu-bar-mode -1)
 
 ;; Display column number
 (column-number-mode t)
@@ -26,7 +30,7 @@
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 
-(load-theme 'manoj-dark t)
+(load-theme 'badger t)
 
 (setq default-tab-width 4)
 
@@ -87,3 +91,5 @@
 
 ;; pending delete
 (pending-delete-mode t)
+
+
