@@ -32,6 +32,7 @@
 
 (load-theme 'badger t)
 (setq default-tab-width 4)
+(setq-default indent-tabs-mode nil)
 
 ;;(global-set-key [(control b)] 'comment-or-uncomment-region)
 
